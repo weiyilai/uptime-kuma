@@ -43,6 +43,7 @@ import ServerChan from "./ServerChan.vue";
 import SerwerSMS from "./SerwerSMS.vue";
 import Signal from "./Signal.vue";
 import SMSManager from "./SMSManager.vue";
+import SMSPartner from "./SMSPartner.vue";
 import Slack from "./Slack.vue";
 import Squadcast from "./Squadcast.vue";
 import SMSEagle from "./SMSEagle.vue";
@@ -51,6 +52,7 @@ import STMP from "./SMTP.vue";
 import Teams from "./Teams.vue";
 import TechulusPush from "./TechulusPush.vue";
 import Telegram from "./Telegram.vue";
+import Threema from "./Threema.vue";
 import Twilio from "./Twilio.vue";
 import Webhook from "./Webhook.vue";
 import WeCom from "./WeCom.vue";
@@ -110,6 +112,7 @@ const NotificationFormList = {
     "serwersms": SerwerSMS,
     "signal": Signal,
     "SMSManager": SMSManager,
+    "SMSPartner": SMSPartner,
     "slack": Slack,
     "squadcast": Squadcast,
     "SMSEagle": SMSEagle,
@@ -117,6 +120,7 @@ const NotificationFormList = {
     "stackfield": Stackfield,
     "teams": Teams,
     "telegram": Telegram,
+    "threema": Threema,
     "twilio": Twilio,
     "Splunk": Splunk,
     "webhook": Webhook,

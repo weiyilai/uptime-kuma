@@ -43,6 +43,7 @@ const RocketChat = require("./notification-providers/rocket-chat");
 const SerwerSMS = require("./notification-providers/serwersms");
 const Signal = require("./notification-providers/signal");
 const Slack = require("./notification-providers/slack");
+const SMSPartner = require("./notification-providers/smspartner");
 const SMSEagle = require("./notification-providers/smseagle");
 const SMTP = require("./notification-providers/smtp");
 const Squadcast = require("./notification-providers/squadcast");
@@ -50,6 +51,7 @@ const Stackfield = require("./notification-providers/stackfield");
 const Teams = require("./notification-providers/teams");
 const TechulusPush = require("./notification-providers/techulus-push");
 const Telegram = require("./notification-providers/telegram");
+const Threema = require("./notification-providers/threema");
 const Twilio = require("./notification-providers/twilio");
 const Splunk = require("./notification-providers/splunk");
 const Webhook = require("./notification-providers/webhook");
@@ -123,6 +125,7 @@ class Notification {
             new SerwerSMS(),
             new Signal(),
             new SMSManager(),
+            new SMSPartner(),
             new Slack(),
             new SMSEagle(),
             new SMTP(),
@@ -131,6 +134,7 @@ class Notification {
             new Teams(),
             new TechulusPush(),
             new Telegram(),
+            new Threema(),
             new Twilio(),
             new Splunk(),
             new Webhook(),
